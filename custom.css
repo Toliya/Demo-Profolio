@@ -1,0 +1,54 @@
+body{
+    font-family: Microsoft JhengHei;
+}
+
+.btn-cart{
+    background-color: transparent;
+    position: relative;
+}
+
+.btn-cart .badge{
+    /* 使用 position: absolute;空間將不被計算。 */
+    position: absolute;
+    top: -3px;
+    right: -1px;
+}
+
+.dropdown-menu-right{
+    right: 0;
+    /* 自動往左定位 */
+    left: auto;
+}
+
+.jumbotron-bg{
+    background: url('https://images.unsplash.com/photo-1477901492169-d59e6428fc90?w=1350');
+    background-size: cover;
+    background-position: center center;
+    min-height: 300px;
+}
+
+.bg-lighter{
+    background-color: rgba(255,255,255,.65);
+}
+
+.box-shadow{
+    box-shadow: 0 3px 5px rgba(0,0,0,0.16);
+    /* 只有 box-shadow 這個效果要漸變 */
+    transition: box-shadow .3s;
+}
+
+.box-shadow:hover{
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.btn.disable{
+    /* pointer-events: none; */
+}
+
+.alert-rounded{
+    border-radius: 50px;
+}
+
+.social{
+    list-style-type:none;
+}
